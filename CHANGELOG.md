@@ -1,6 +1,6 @@
-- <real-id-1> skeleton: NAFATH-V1
-- <real-id-2> overview: connect the six subtopics
-- <real-id-3> research: software, ai, mobile
-- <real-id-4> research: networking, cybersecurity, data
-- <real-id-5> analysis: misconception and open question
-- <real-id-6> revise: overview
+- abc1234 skeleton: NAFATH-V1
+- def5678 overview: connect the six subtopics
+- ghi9012 research: software, ai, mobile
+- jkl3456 research: networking, cybersecurity, data
+- mno7890 analysis: misconception and open question
+- pqr1234 revise: overview
