@@ -39,3 +39,11 @@ Resource: NIST SP 800-63B - Digital Identity Guidelines: Authentication and Life
 Under Oman's Personal Data Protection Law (PDPL), the authority acting as a data controller must adhere to strict obligations when collecting and storing citizens' personal data. These include obtaining lawful, explicit consent, ensuring data minimization by collecting only what is strictly necessary for authentication, enforcing robust technical and organizational security measures against breaches, and respecting individuals' rights to access and correct their data.
 
 Resource: Ministry of Transport, Communications and Information Technology - Personal Data Protection Law - https://www.mtcit.gov.om/ITAPortal/Data/English/DocLibrary/202361111523315/Royal-Decree-6-2022-Promulgating-the-Personal-Data-Protection-Law-EN.pdf
+
+## Misconception in My Track
+
+A common misconception is that OAuth 2.0 handles user login directly by verifying credentials and issuing identity tokens. In reality, OAuth 2.0 is strictly an authorization framework designed for granting delegated access, whereas OpenID Connect (OIDC) is the actual layer responsible for authentication and user login. This distinction is proven in Section 1.2 and Section 2 of RFC 6749, which defines OAuth 2.0 as an authorization protocol separate from user authentication.
+
+## Open Question
+
+How will the system handle seamless session revocation across multiple concurrent mobile and web client sessions if a token is compromised?
